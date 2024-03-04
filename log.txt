@@ -1,0 +1,47 @@
+  426  mkdir Assess_0083
+  427  pwd
+  428  cd Assess_0083
+  429  mkdir img
+  430  git init
+  431  nano h1.c
+  432  vi h1.txt
+  433  vi h1.html
+  434  git add .
+  435  git commit -m"files changed and commit"
+  436  git log
+  437  vi h1.c
+  438  git status
+  439  git add .
+  440  git commit -m "modified .c file"
+  441  vi h1.txt
+  442  vi h1.html
+  443  git status
+  444  git add .
+  445  git commit -m "modified .html and .txt file"
+  446  git remote add origin https://github.com/Gorav22/Assess_0083.git
+  447  git push -u origin master
+  448  cd img
+  449  vi .gitignore
+  450  git status
+  451  git add .
+  452  git status
+  453  git commit -m ".gitignore initiated"
+  454  cd ..
+  455  vi .gitignore
+  456  git status
+  457  git add .
+  458  git commit -m "ignore images"
+  459  cd img
+  460  ls
+  461  vi h1.c
+  462  vi h1.html
+  463  vi h1.txt
+  464  git status
+  465  git add .
+  466  git commit -m "modified"
+  467  ls
+  468  ls -ah
+  469  cd ..
+  470  history
+
+
